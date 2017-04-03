@@ -1,6 +1,6 @@
 # Ranking words by importance level
 
-WordRank gets most important words from a document and ranks them in descending order based on the occurance count in transcript files. 
+WordRank gets most important words from a document and ranks them in descending order based on the occurance count in transcript files. Firstly, given text tagged with pos tagger, and all words are filtered out except NOUN, ADJECTIVE and VERB, and remaining words lemmatized. In the next step occurance count of each word in the cleaned text calculated. If the file is script file then the words ranked by occurance count in descending order and are stored in a list. If the file is transcript file, a dictionary variable filled with the words and occurance count of these words in the transcript files. In the next step <b>n</b> number of words selected from firstly created list and based on the occurance count in transcript file they are ranked in descending order.
 
 ### Installation
 
