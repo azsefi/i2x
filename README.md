@@ -7,7 +7,7 @@ WordRank gets most important words from a document and ranks them in descending 
 Required packages listed in requirements.txt file
 
 ### Example
-
+```Python
 > from wordrank import WordRank
 >
 > wrank = WordRank(nwords=10)
@@ -16,6 +16,7 @@ Required packages listed in requirements.txt file
 >
 > wrank.wfreq[:10]
 [('food', 222), ('include', 35), ('animal', 32), ('use', 29), ('culture', 23), ('price', 22), ('plant', 19), ('taste', 18), ('type', 18), ('eat', 18)]
+```
 
 <b>getrank :</b> function returns ranked list of <i>word, occurance_count</i> tuple. occurance_count is the count of the occurance in transcript files. 
 <b>wfreq   :</b> parameter returns list of <i>word, occurance_count</i> tuple. occurance_count is the count of the occurance in script file.
