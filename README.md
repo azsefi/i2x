@@ -4,7 +4,9 @@ WordRank gets most important words from a document and ranks them in descending 
 
 ### Installation
 
-Required packages listed in requirements.txt file
+Required packages listed in requirements.txt file.
+
+$ pip install -r requirements.txt
 
 ### Example
 ```Python
