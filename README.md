@@ -20,6 +20,6 @@ Required packages listed in requirements.txt file
 
 <b>getrank :</b> function returns ranked list of <i>word, occurance_count</i> tuple. occurance_count is the count of the occurance in transcript files. 
 
-<b>wfreq   :</b> parameter returns list of <i>word, occurance_count</i> tuple. occurance_count is the count of the occurance in script file.
+<b>wfreq   :</b> parameter keeps list of <i>word, occurance_count</i> tuple. occurance_count is the count of the occurance in script file.
 
 The word <i>animal</i> is in 3-rd place in the wfreq, but it is in 7th place in final ranking.
